@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro Dinamyc Hotel</title>
+</head>
+<body>
+
+    <header>
+            <h1 class="caixa">Dinamyc Hotel</h1>
+        <nav id="princ">
+            <ul id="usuario">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastra-se</a></li>
+                <li><a href="historia.html">Quem Somos</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+            </ul>
+        </nav>    
+    </header>
+
+        <div id="linha-horizontal"></div>
+        
+        <main>
+            <form>
+                <label for="nomecompleto">Nome Completo</label>
+                <input type="text" id="nomecompleto" class="input-padrao">
+    
+                <label for="email">Endereço de Email*</label>
+                <input type="email" id="email" class="input-padrao">
+    
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao">
+    
+                <label for="senha">Senha*</label>
+                <input type="password" id="senha" class="input-padrao">
+    
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="radio-email">Email</label>
+                
+    
+                <label for="radio-telefone"><input type="radio" name="contato" value="radio-telefone">Telefone</label>
+                
+    
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp">WhatsApp</label>  
+            </div>
+    
+                <label class="checkbox"><input type="checkbox">Gostaria de receber nossas promoções por email?</label>
+                <a href="reserva.html">
+                <input type="button" value="Continuar"></a>
+            </form>
+        </main>
+</body>
+</html>
