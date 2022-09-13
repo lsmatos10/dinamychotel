@@ -15,8 +15,6 @@
             <ul id="usuario">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="login.html">Login</a></li>
-                <li><a href="cadastro.html">Cadastra-se</a></li>
-                <li><a href="historia.html">Quem Somos</a></li>
                 <li><a href="suporte.html">Suporte</a></li>
             </ul>
         </nav>    
@@ -27,31 +25,31 @@
         <main>
             <form>
                 <label for="nomecompleto">Nome Completo</label>
-                <input type="text" id="nomecompleto" class="input-padrao">
+                <input type="text" id="nomecompleto" class="input-padrao" required>
     
                 <label for="email">Endereço de Email*</label>
-                <input type="email" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
     
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="input-padrao">
+                <input type="tel" id="telefone" class="input-padrao" placeholder="(xx) xxxxx-xxxx">
     
                 <label for="senha">Senha*</label>
-                <input type="password" id="senha" class="input-padrao">
+                <input type="password" id="senha" class="input-padrao" required>
     
-            <div>
-                <p>Como prefere o nosso contato?</p>
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
                 <label for="radio-email"><input type="radio" name="contato" value="radio-email">Email</label>
                 
     
                 <label for="radio-telefone"><input type="radio" name="contato" value="radio-telefone">Telefone</label>
                 
     
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp">WhatsApp</label>  
-            </div>
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp" checked>WhatsApp</label>  
+            </fildset>
     
-                <label class="checkbox"><input type="checkbox">Gostaria de receber nossas promoções por email?</label>
-                <a href="reserva.html">
-                <input type="button" value="Continuar"></a>
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas promoções por email?</label>
+
+                <input type="submit" value="Enviar cadastro" class="enviar">
             </form>
         </main>
 </body>

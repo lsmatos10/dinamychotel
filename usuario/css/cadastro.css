@@ -62,7 +62,28 @@ form label {
     width: 25%;
 }
 
+fieldset{
+    border:none;
+}
+
 .checkbox {
     margin: 20px 0;
 }
 
+.enviar {
+    width: 20%;
+    padding: 15px 0px;
+    background: rgb(27, 117, 252);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkblue;
+    transform: scale(1.2);
+}

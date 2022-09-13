@@ -1,6 +1,6 @@
 
 body {
-    background-color: #bbbb;
+    background-color: white;
 }
 
 header {
@@ -41,6 +41,8 @@ nav a{
 main {
     width: 940px;
     margin: 0 auto;
+    color:black;
+    
 }
 
 form {
@@ -50,19 +52,60 @@ form {
 form label {
     display: inline;
     font-size: 20px;
-    margin: 10px 0px 10px
+    margin: 10px 0px 10px;
 }
 
 form input {
-    display: inline;
-    margin: 0 0 20px;
+    display: inline-block;
+    margin: 0 0px 15px 20px;
     padding: 8px 5px;
-    width: 18%
+    width: 18%;
+    
 }
 
 form select {
     display: inline;
     margin: 0 0 20px;
     padding: 8px 5px;
-    width: 11%
+    width: 11%;    
+}
+
+.enviar {
+    width: 20%;
+    padding: 6px 0px;
+    background: rgb(27, 117, 252);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 2s all;
+    cursor: pointer;
+    
+}
+
+.enviar:hover {
+    background: darkblue;
+    transform: scale(1.2);
+}
+
+#prop {
+    color: white;
+    background-image: url("../imagens/young-cheerful-friends-smiling-relaxing-jumping-in-swimming-pool.jpg");
+    height: 500px;
+    width: 22cm;
+    background-size:100%;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#propa{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 60px 0px 0px 25px
+}
+
+#prop p{
+    padding: 0% 0px 0px 25px ;
+
 }
