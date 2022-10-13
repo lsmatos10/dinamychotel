@@ -1,5 +1,9 @@
+*{
+    background-color:
+}
+
 body {
-    background-color: #bbbb;
+    background-color: #364559;
     font-family: arial narrow;
 }
 
@@ -49,7 +53,15 @@ img{
     width: 950px;
     margin: 0 auto;
     padding: 25px;
+}
 
+h2{ 
+    color: #A7BDD9;
+}
+
+p{
+    color: #7289A6;
+    font-weight: bold;
 }
 
 .quartos li {
@@ -60,14 +72,14 @@ img{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border-color: #000;
-    border-width: 2px;
+    border-color: #A7BDD9;
+    border-width: 1px;
     border-style: solid; 
-    border-radius: 20px
+    border-radius: 11px
 }
 
 h3 {
-    color:rgb(12, 78, 18);
+    color:rgb(9, 236, 27);
     text-align:center;
     font-weight: bold
 }
@@ -76,9 +88,28 @@ input {
 
     padding:  10px 25%;
     margin: 20px;
-
-
 }
+
+.breserva{
+    background: #364559;
+    color: #7289A6;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    border-color: #A7BDD9;
+    border-width: 1px;
+    border-style: solid; 
+    border-radius: 5px
+}
+
+.breserva:hover{
+    background: #A7BDD9;
+    transform: scale(1.1);
+}
+
 
 #voltar {
 
