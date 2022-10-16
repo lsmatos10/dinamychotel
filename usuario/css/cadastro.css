@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,12 +7,12 @@
 }
 
 body {
-    background-color: #364559
+    background-color: #364559;
 }
 
 header {
     background-color: #FFFF;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
 #linha-horizontal{
@@ -19,6 +20,9 @@ header {
 }
 
 .caixa {
+    position: relative;
+    margin: 10px;
+    font-size: 30px;
 
 }
 
@@ -49,16 +53,16 @@ main {
     justify-content: center;
     align-items: center;
     width:100vw;
+    
 }
 
 form {
     margin: 40px;
-
-
 }
 
 form label {
     font-size: 20px;
+    
 }
 
 .dados{
@@ -71,11 +75,20 @@ form label {
     align-items: center;
     margin: 2%;
     color: black;
-    margin-left: 40%;
+    margin-left: 0%;
+    width: 30vw;
+    height: 2vw;
+    text-align:center;
+    border-color: #7278A6;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 9px;
+    
 }
 
 fieldset{
     border:none;
+    margin-top: 5%
 }
 
 .checkbox {
@@ -83,7 +96,8 @@ fieldset{
 }
 
 .enviar {
-    width: 20%;
+    margin-top: 5%;
+    width: 40%;
     padding: 15px 0px;
     background: #A7BDD9;
     color: #364559;

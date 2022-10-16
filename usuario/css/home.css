@@ -4,13 +4,14 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    background-color: white;
+    background-color: #364559;
 }
 
 header {
     background-color: #FFFF;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
 #linha-horizontal{
@@ -58,6 +59,8 @@ form label {
     display: inline;
     font-size: 20px;
     margin: 10px 0px 10px;
+    color: #A7BDD9;
+    font-weight: bold;
 }
 
 form input {
@@ -78,7 +81,7 @@ form select {
 .enviar {
     width: 20%;
     padding: 6px 0px;
-    background: rgb(27, 117, 252);
+    background: #7289A6;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -90,12 +93,13 @@ form select {
 }
 
 .enviar:hover {
-    background: darkblue;
+    background-color: #7289A6;
     transform: scale(1.2);
+    transition: 1s all;
 }
 
 #prop {
-    color: white;
+    color: #ffff;
     background-image: url("../imagens/young-cheerful-friends-smiling-relaxing-jumping-in-swimming-pool.jpg");
     height: 500px;
     width: 22cm;

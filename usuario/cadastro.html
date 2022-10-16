@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/cadastro.css">
     <title>Cadastro Dinamyc Hotel</title>
+    <script src="cadastro.js"></script>
 </head>
 <body>
 
@@ -31,8 +32,11 @@
                 <label for="email">Endereço de Email*</label>
                 <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
     
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" maxlength="14" class="input-padrao" required>
+
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="input-padrao" placeholder="(xx) xxxxx-xxxx">
+                <input type="tel" id="telefone" maxlength="15" class="input-padrao" placeholder="(xx) xxxxx-xxxx">
     
                 <label for="senha">Senha*</label>
                 <input type="password" id="senha" class="input-padrao" required>
@@ -46,12 +50,13 @@
                 <label for="radio-telefone"><input type="radio" name="contato" value="radio-telefone">Telefone</label>
                 
     
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp" checked>WhatsApp</label>  
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp" checked>WhatsApp</label>
             </fildset>
-    
+            <div>
                 <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas promoções por email?</label>
-
+            </div>
                 <input type="submit" value="Enviar cadastro" class="enviar">
+            
             </form>
         </main>
 </body>
