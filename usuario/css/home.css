@@ -3,10 +3,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     background-color: #364559;
+    justify-content: center;
+    align-items: center;
+    font-family: arial narrow;
 }
 
 header {
@@ -44,10 +48,139 @@ nav a{
     color: midnightblue;
 }
 
+/* ------------------------------------------ */
+
+.slider{
+    margin: 0 auto;
+    width: 1000px;
+    height: 350px;
+    overflow: hidden;
+    margin-top: 15px;
+
+    border-color: #A7BDD9;
+    border-width: 01px;
+    border-style: solid;
+    border-radius: 10px;
+    /*
+    border-radius: 10px;
+    border-color: #FFF;*/
+}
+
+.slides{
+    width: 500%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 1.5s
+}
+
+.slide img{
+    width: 1000px;
+    height: 350px
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 1000px;
+    margin-top: -85px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .05s;
+
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+
+.manual-btn:hover{
+    background-color: #FFF;
+}
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .05s
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 1000px;
+    margin-top: 315px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 20px;
+    
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFF
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFF
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFF
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #FFF
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #FFF
+}
+/* ------------------------------------------ */
+
 main {
     width: 940px;
     margin: 0 auto;
-    color:black;
+
+    color: #A7BDD9;
     
 }
 
@@ -117,4 +250,23 @@ form select {
 #prop p{
     padding: 0% 0px 0px 25px ;
 
+}
+
+
+/* -------------------------------------------- */
+footer {
+    margin-top: 100px;
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+.imgfote{
+    width: 300px;
 }
