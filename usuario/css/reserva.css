@@ -82,20 +82,23 @@ main{
 
 h2{
     color: #A7BDD9;
+    margin-top: 9px;
 }
 
 p{
-    color: #7289A6;
+    color: #A7BDD9;
+    margin-top: 3px;
 }
 
 h3 {
     color:rgb(1, 184, 17);
     text-align:center;
     font-weight: bold;
+    font-size: 25px;
+    margin-top: 23px;
 }
 
 input {
-
     padding:  10px 25%;
     margin: 20px;
 }
@@ -114,6 +117,7 @@ input {
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
+    margin-top: 30px;
     
 }
 
