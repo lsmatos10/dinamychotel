@@ -105,7 +105,6 @@ input {
 
 .breserva{
     text-align: center;
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 9px 20%;
@@ -128,16 +127,19 @@ input {
 }
 
 #voltar {
+    margin-top: 50px;
     color:black;
     padding: 15px 20px;
 }
 
 /* -------------------------------------------- */
 footer {
-    margin-top: 20px;
+    margin-top: 50px;
 	text-align: center;
 	background: url("bg.jpg");
 	padding: 40px 0;
+    height: 12vw;
+    
     
 }
 
