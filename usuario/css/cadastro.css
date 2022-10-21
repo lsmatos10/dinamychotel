@@ -96,10 +96,12 @@ form label {
 fieldset{
     border:none;
     margin-top: 5%;
+    cursor:pointer;
 }
 
 .checkbox {
     margin: 20px 0;
+    cursor:pointer;
 }
 
 .enviar {
