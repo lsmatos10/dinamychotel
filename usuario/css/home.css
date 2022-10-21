@@ -7,20 +7,23 @@
 }
 
 body {
-    background-color: #364559;
+    background-color: #006466;
     justify-content: center;
     align-items: center;
     font-family: arial narrow;
 }
 
 header {
-    background-color: #FFFF;
+    background-color: #1B3A4B;
     padding: 5px 0;
+    
 }
 
-#linha-horizontal{
-    border: 1px solid rgb(147, 136, 136);
+.logoini{
+    width: 15vw;
 }
+
+
 
 .caixa {
     position: relative;
@@ -45,7 +48,8 @@ nav li{
 nav a{
     text-transform: uppercase;
     text-decoration: none;
-    color: midnightblue;
+    color: #A7BDD9;
+    margin-top:60px;
 }
 
 /* ------------------------------------------ */
@@ -57,7 +61,7 @@ nav a{
     overflow: hidden;
     margin-top: 15px;
 
-    border-color: #A7BDD9;
+    border-color: #006466;
     border-width: 01px;
     border-style: solid;
     border-radius: 10px;
@@ -180,7 +184,7 @@ main {
     width: 940px;
     margin: 0 auto;
 
-    color: #A7BDD9;
+    color: #;
     
 }
 
@@ -192,34 +196,42 @@ form {
 form label {
     display: inline;
     font-size: 20px;
-    margin: 10px 0px 10px;
-    color: #A7BDD9;
+    margin: 0px 1px 1px 10px;
+    color: #fff;
     font-weight: bold;
     text-align:center;
 }
 
 form input {
     display: inline-block;
-    margin: 0 0px 15px 20px;
-    padding: 8px 5px;
-    width: 120px;
+    margin: 0px 1px 1px 10px;
+    padding: 8px 0px;
+    width: 100px;
     cursor:pointer;
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 5px;
+    border-color: #006466
+
     
     
 }
 
 form select {
     display: inline;
-    margin: 0 0 20px;
+    margin: 0px 10px 1px 10px;
     padding: 8px 5px;
     width: 100px;    
     cursor:pointer;
+    border-style:solid;
+    border-radius: 5px;
+    border-color: #006466
 }
 
 .enviar {
     width: 150px;
     padding: 6px 0px;
-    background: #7289A6;
+    background: #38A3A5;
     color: white;
     font-weight: bold;
     font-size: 18px;
