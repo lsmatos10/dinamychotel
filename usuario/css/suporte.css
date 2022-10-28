@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,9 +8,9 @@
 
 body {
     background-color: #006466;
-    font-family: arial narrow;
     justify-content: center;
     align-items: center;
+    font-family: arial narrow;
 }
 
 header {
@@ -26,6 +27,7 @@ header {
     margin: 10px;
     font-size: 30px;
 }
+
 nav {
     position:absolute;
     top: 30px;
@@ -43,9 +45,10 @@ nav li{
 nav a{
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
-
+    color: #FFFFFF;
+    margin-top:60px;
 }
+
 
 
     footer {

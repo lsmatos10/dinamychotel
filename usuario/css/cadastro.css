@@ -6,30 +6,26 @@
     
 }
 
-.logoini{
-    width: 15vw;
-}
-    
 body {
     background-color: #006466;
     justify-content: center;
     align-items: center;
     font-family: arial narrow;
-    
 }
 
 header {
     background-color: #1B3A4B;
     padding: 5px 0;
-    
 }
 
+.logoini{
+    width: 15vw;
+}
 
 .caixa {
     position: relative;
     margin: 10px;
     font-size: 30px;
-
 }
 
 nav {
@@ -49,9 +45,10 @@ nav li{
 nav a{
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
-
+    color: #FFFFFF;
+    margin-top:60px;
 }
+
 
 main {
     text-align: center;

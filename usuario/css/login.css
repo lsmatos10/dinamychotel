@@ -125,7 +125,7 @@ body {
 
 /* -------------------------------------------- */
 footer {
-  margin-top: 232px;
+margin-top: 200px;
 text-align: center;
 background: url("bg.jpg");
 padding: 40px 0;
@@ -134,7 +134,7 @@ padding: 40px 0;
 .copyright {
 color: #FFFFFF;
 font-size: 13px;
-margin: 10px 0 0;
+margin: 20px 0 0;
 }
 
 .imgfote{

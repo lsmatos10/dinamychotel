@@ -1,56 +1,54 @@
-   *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        
-    }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     
-    .logoini{
-        width: 15vw;
-    }
-        
-    body {
-        background-color: #006466;
-        justify-content: center;
-        align-items: center;
-        font-family: arial narrow;
-        
-    }
-    
-    header {
-        background-color: #1B3A4B;
-        padding: 5px 0;
-        
-    }
-    
-    
-    .caixa {
-        position: relative;
-        margin: 10px;
-        font-size: 30px;
-    
-    }
-    
-    nav {
-        position:absolute;
-        top: 30px;
-        right: 40px;
-        font-size: 15px;
-        font-family: Arial;
-        font-weight: bold;
-    }
-    
-    nav li{
-        display: inline;
-        margin: 0 0 0 0px;
-    }
-    
-    nav a{
-        text-transform: uppercase;
-        text-decoration: none;
-        color: white;
-    
-    }
+}
+
+body {
+    background-color: #006466;
+    justify-content: center;
+    align-items: center;
+    font-family: arial narrow;
+}
+
+header {
+    background-color: #1B3A4B;
+    padding: 5px 0;
+}
+
+.logoini{
+    width: 15vw;
+}
+
+.caixa {
+    position: relative;
+    margin: 10px;
+    font-size: 30px;
+}
+
+nav {
+    position:absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top:60px;
+}
+
     
     main {
         text-align: center;
