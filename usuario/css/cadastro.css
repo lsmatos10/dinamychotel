@@ -6,8 +6,12 @@
     
 }
 
+.logoini{
+    width: 15vw;
+}
+    
 body {
-    background-color: #364559;
+    background-color: #006466;
     justify-content: center;
     align-items: center;
     font-family: arial narrow;
@@ -15,14 +19,11 @@ body {
 }
 
 header {
-    background-color: #FFFF;
+    background-color: #1B3A4B;
     padding: 5px 0;
     
 }
 
-#linha-horizontal{
-    border: 1px solid rgb(147, 136, 136);
-}
 
 .caixa {
     position: relative;
@@ -48,7 +49,7 @@ nav li{
 nav a{
     text-transform: uppercase;
     text-decoration: none;
-    color: midnightblue;
+    color: white;
 
 }
 
@@ -58,13 +59,13 @@ main {
     justify-content: center;
     align-items: center;
     width:100vw;
-    background-color: #364559;
-    color: #A7BDD9;
+    background-color: #006466;
+    color: #FFFFFF;
     
 }
 
 form {
-    margin: 40px;
+    margin: 35px;
 }
 
 form label {
@@ -86,7 +87,7 @@ form label {
     width: 30vw;
     height: 2vw;
     text-align:center;
-    border-color: #7278A6;
+    border-color: #006466;
     border-width: 2px;
     border-style: solid;
     border-radius: 9px;
@@ -97,19 +98,21 @@ fieldset{
     border:none;
     margin-top: 5%;
     cursor:pointer;
+    font-size: 20px;
 }
 
 .checkbox {
-    margin: 20px 0;
+    margin: 20px 10px;
     cursor:pointer;
+    font-size: 20px;
 }
 
 .enviar {
     margin-top: 5%;
     width: 40%;
     padding: 15px 0px;
-    background: #A7BDD9;
-    color: #364559;
+    background: #38A3A5;
+    color: white;
     font-weight: bold;
     font-size: 18px;
     border: none;
@@ -123,7 +126,6 @@ fieldset{
     transform: scale(1.2);
     transition: 1s all;
 }
-
 
 /* -------------------------------------------- */
 footer {

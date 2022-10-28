@@ -16,14 +16,11 @@ body {
 header {
     background-color: #1B3A4B;
     padding: 5px 0;
-    
 }
 
 .logoini{
     width: 15vw;
 }
-
-
 
 .caixa {
     position: relative;
@@ -48,7 +45,7 @@ nav li{
 nav a{
     text-transform: uppercase;
     text-decoration: none;
-    color: #A7BDD9;
+    color: #FFFFFF;
     margin-top:60px;
 }
 
@@ -88,7 +85,7 @@ nav a{
 
 .slide img{
     width: 1000px;
-    height: 350px
+    height: 350px;
 }
 
 .manual-navigation{
@@ -139,11 +136,11 @@ nav a{
 }
 
 .navigation-auto div{
-    border: 2px solid #20a6ff;
+    border: 2px solid #FFFFFF;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: .05s
+    transition: .05s;
 }
 
 .navigation-auto{
@@ -183,8 +180,7 @@ nav a{
 main {
     width: 940px;
     margin: 0 auto;
-
-    color: #;
+    color: #fff;
     
 }
 
@@ -211,7 +207,7 @@ form input {
     border-width: 2px;
     border-style:solid;
     border-radius: 5px;
-    border-color: #006466
+    border-color: #006466;
 
     
     

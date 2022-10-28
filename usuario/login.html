@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Dinamyc Hotel</title>
+    <title>Dynamic - Login</title>
+    <link rel="stylesheet" href="css/login.css">
 </head>
-<body>
-
-    <main>
-        <form>
-            <label for="email">Email</label>
-            <input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com">
-            
-            <label for="senha">Senha</label>
-            <input type="password" id="senha" class="input-padrao">
-
-            <input type="submit" value="Entrar" class="enviar">
+    <div class="login-page">
+        <div class="form">
+            <header>
+                <h1 class="caixa"><img src="imagens/logoflor.png" class="logoini" alt=""></h1>
+            </header>
+        <form class="register-form">
+            <input type="text" placeholder="name"/>
+            <input type="password" placeholder="password"/>
+            <input type="text" placeholder="email address"/>
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
         </form>
-    </main>
-
+        <form class="login-form">
+            <input type="text" placeholder="usuário"/>
+            <input type="password" placeholder="senha"/>
+            <button>login</button>
+            <p class="message">Não é registrado? <a href="cadastro.html">Criar uma nova conta</a></p>
+        </form>
+        </div>
+    </div>
+    <footer>
+        <img src="imagens/logoofc.png" class="imgfote">
+        <p class="copyright">&copy; Copyright Grupo Dinamyc Hotel - 2022</p>
+    </footer>
 </body>
 </html>
