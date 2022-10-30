@@ -49,22 +49,136 @@ nav a{
     margin-top:60px;
 }
 
+.conteudo{
+    width: auto;
+    height: 650px;
+    margin-top: 0%;
+    margin-left: auto;
+    bottom: 0;
+    margin-right: auto;
+    font-family: Calibri;
+}
+
+.ndados{
+    color: #FFFFFF;
+    padding: 10px;
+    width:50%;
+    height:100%;
+    float:left;
+}
+
+.ntel{
+
+    margin-left: 250px;
+    font-style: bold;
+    font-size: 30px;
+    padding-top: 150px;
+}
+
+.Localização{
+    margin-left: 250px;
+    font-style: bold;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.Hatendimento{
+    margin-left: 250px;
+    font-style: bold;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.dadoscontato{
+    padding-top: 10px;
+    margin-left: 250px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.falecnc{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-style: bold;
+    width:50%;
+    height:100%;
+    float:left;
+    padding-top: 90px;
+}
+
+.nomecompleto{
+    margin-left: 20px;
+}
+
+.email{
+    margin-left: 20px;
+}
+
+.end{
+    margin-left: 20px;
+}
 
 
-    footer {
-        margin-top: 50px;
-        text-align: center;
-        background: url("bg.jpg");
-        padding: 40px 0;
-        height: 12vw;
-    }
+
+#nomecompleto{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    color: black;
+    width: 30vw;
+    height: 2vw;
+    text-align:center;
+    border-color: #006466;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 9px;
+}   
+
+#email{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    color: black;
+    width: 30vw;
+    height: 2vw;
+    text-align:center;
+    border-color: #006466;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 9px;
+}   
+
+#Conte{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    color: black;
+    width: 30vw;
+    height: 10vw;
+    text-align:center;
+    border-color: #006466;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 9px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+    height: 12vw;
+}
     
-    .copyright {
-        color: #FFFFFF;
-        font-size: 13px;
-        margin: 20px 0 0;
-    }
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
     
-    .imgfonte{
-        width: 300px;
-    }
+.imgfonte{
+    width: 300px;
+}
