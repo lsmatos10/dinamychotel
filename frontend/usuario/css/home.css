@@ -240,7 +240,7 @@ form select {
 
 #prop {
     color: #ffff;
-    background-image: url("../imagens/young-cheerful-friends-smiling-relaxing-jumping-in-swimming-pool.jpg");
+    background-image: url("/frontend/usuario/img/young-cheerful-friends-smiling-relaxing-jumping-in-swimming-pool.jpg");
     margin: 0 auto;
     width: 1000px;
     height: 550px;
@@ -266,7 +266,7 @@ form select {
 footer {
     margin-top: 100px;
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("/frontend/usuario/img/bg.jpg");
 	padding: 40px 0;
 }
 

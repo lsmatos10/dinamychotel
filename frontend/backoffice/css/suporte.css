@@ -165,10 +165,17 @@ nav a{
     border-radius: 9px;
 }
 
+input {
+    width: 20vw;
+    height: 2vw;
+    font-size: 13px;
+}
+
+
 footer {
     margin-top: 50px;
     text-align: center;
-    background: url("/frontend/usuario/img/bg.jpg");
+    background: url("bg.jpg");
     padding: 40px 0;
     height: 12vw;
 }
