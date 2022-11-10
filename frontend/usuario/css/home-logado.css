@@ -1,0 +1,281 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #006466;
+    justify-content: center;
+    align-items: center;
+    font-family: arial narrow;
+}
+
+header {
+    background-color: #1B3A4B;
+    padding: 5px 0;
+}
+
+.logoini{
+    width: 15vw;
+}
+
+.caixa {
+    position: relative;
+    margin: 10px;
+    font-size: 30px;
+}
+
+nav {
+    position:absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top:60px;
+}
+
+/* ------------------------------------------ */
+
+.slider{
+    margin: 0 auto;
+    width: 1000px;
+    height: 350px;
+    overflow: hidden;
+    margin-top: 15px;
+
+    border-color: #006466;
+    border-width: 01px;
+    border-style: solid;
+    border-radius: 10px;
+    /*
+    border-radius: 10px;
+    border-color: #FFF;*/
+}
+
+.slides{
+    width: 500%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 1.5s
+}
+
+.slide img{
+    width: 1000px;
+    height: 350px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 1000px;
+    margin-top: -85px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .05s;
+
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+}
+
+.manual-btn:hover{
+    background-color: #FFF;
+}
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.navigation-auto div{
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .05s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 1000px;
+    margin-top: 315px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 20px;
+    
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFF
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFF
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFF
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #FFF
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #FFF
+}
+/* ------------------------------------------ */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    color: #fff;
+    
+}
+
+form {
+    margin: 20px 0px;
+    text-align:center;
+}
+
+form label {
+    display: inline;
+    font-size: 20px;
+    margin: 0px 1px 1px 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align:center;
+}
+
+form input {
+    display: inline-block;
+    margin: 0px 1px 1px 10px;
+    padding: 8px 0px;
+    width: 100px;
+    cursor:pointer;
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 5px;
+    border-color: #006466;
+
+    
+    
+}
+
+form select {
+    display: inline;
+    margin: 0px 10px 1px 10px;
+    padding: 8px 5px;
+    width: 100px;    
+    cursor:pointer;
+    border-style:solid;
+    border-radius: 5px;
+    border-color: #006466
+}
+
+.enviar {
+    width: 150px;
+    padding: 6px 0px;
+    background: #38A3A5;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 2s all;
+    cursor: pointer;
+    
+}
+
+#prop {
+    color: #ffff;
+    background-image: url("/frontend/usuario/img/young-cheerful-friends-smiling-relaxing-jumping-in-swimming-pool.jpg");
+    margin: 0 auto;
+    width: 1000px;
+    height: 550px;
+    overflow: hidden;
+    background-size:100%;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#propa{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 60px 0px 0px 25px
+}
+
+#prop p{
+    padding: 0% 0px 0px 25px ;
+
+}
+
+
+/* -------------------------------------------- */
+footer {
+    margin-top: 100px;
+	text-align: center;
+	background: url("/frontend/usuario/img/bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+.imgfote{
+    width: 300px;
+}

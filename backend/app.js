@@ -3,7 +3,7 @@ const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
-const rotaProdutos = require('./routes/produtos');
+const rotaProdutos = require('./routes/quartos');
 const rotaPedidos = require('./routes/pedidos');
 
 app.use(morgan('dev'));
@@ -28,7 +28,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/produtos', rotaProdutos);
+app.use('/quartos', rotaProdutos);
 app.use('/pedidos', rotaPedidos);
 
 //Quando não encontra rota, entra aqui
